@@ -1,7 +1,7 @@
 #<script> Tag : 
 To write Javascript code in HTML file, We need to use the the <script> </script> tags.
 <script> can be placed in head section or in the body section.
-
+  
 Why place it in Body Section :
 Browser parses the file from top to bottom, if you put in head, browser may get busy in parsing the javascript code and will not render the contents of the browser page.
 Making it unformtable for the user.
@@ -14,5 +14,3 @@ We log a message in the console.
 #// Comment :
 // is used to add comments to our code. Comments are nothing but description to your code, It is not executed by js engine.
 (e.g.) console.log("Hello");   //Hello will be printed in the console
-
-
