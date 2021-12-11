@@ -18,6 +18,9 @@ Cannot be a Reserved keyword like if,else
 Should be meaningful
 Cannot Begin with a number e.g 25variable
 Cannot have a space or hyphen(-)
+They are case-sensitive in Javascript
 
 Best Notation for variable names is using Camel Notation (e.g) let firstLast = 'tree';
+
+Declaring Multipe Variables => let ab = 'hi', bb = 'hello';
 
