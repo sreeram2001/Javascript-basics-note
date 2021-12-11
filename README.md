@@ -1,2 +1,2 @@
-# Javascript-basics-note
+# Javascript-basics-notes
 Javascript Notes
