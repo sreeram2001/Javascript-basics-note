@@ -1,4 +1,4 @@
-** <script> Tag : **
+#<script> Tag : 
 To write Javascript code in HTML file, We need to use the the <script> </script> tags.
 <script> can be placed in head section or in the body section.
 
