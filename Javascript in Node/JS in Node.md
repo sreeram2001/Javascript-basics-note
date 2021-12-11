@@ -1,8 +1,6 @@
 Download Node JS.
 
-Open Command Prompt in the folder where the files are located. Then type this command and press enter.
-=> node filename
-(e.g) node index.js
+Open Command Prompt in the folder where the files are located. Then type this command and press enter.                                                                            => node filename                                                                                                                                                                (e.g) node index.js
 => Hi
 
 You will recieve the message on console. Node includes Google's V8 Javascript Engine. Node is a runtime environment for executing Javascript Codes.
