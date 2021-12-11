@@ -26,3 +26,12 @@ Console output :
 ![image](https://user-images.githubusercontent.com/40134790/145683968-9c473f75-800e-4343-98c8-50f8da46e5c8.png)
 
 We can pass multiple parameters to the function and these parameters can be of any type.
+
+
+**Returning a Value by Function:**
+
+![image](https://user-images.githubusercontent.com/40134790/145684223-2bb6c623-bf48-417f-92d2-a9d8d5011ca0.png)
+
+![image](https://user-images.githubusercontent.com/40134790/145684234-f9177162-c0db-4472-863e-32dfb03f0d65.png)
+
+Number is the parameter we passed, this functions returns the cube of a number that is given as input, return keyword is used to return a value by the function.
