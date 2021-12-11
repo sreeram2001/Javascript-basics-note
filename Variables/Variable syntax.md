@@ -10,3 +10,14 @@ In the above example we declared a variable named "name" which stores the string
 ![image](https://user-images.githubusercontent.com/40134790/145674962-1b2dc57d-e389-4ce0-a667-3ac3959131be.png)
 
 This the output from console
+
+
+**Variable Naming Rules :
+
+Cannot be a Reserved keyword like if,else
+Should be meaningful
+Cannot Begin with a number e.g 25variable
+Cannot have a space or hyphen(-)
+
+Best Notation for variable names is using Camel Notation (e.g) let firstLast = 'tree';
+
