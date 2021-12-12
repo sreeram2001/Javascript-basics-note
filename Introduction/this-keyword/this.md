@@ -23,5 +23,10 @@ Stop is also a method, when we call the stop method, we see the 'v' object
 ![image](https://user-images.githubusercontent.com/40134790/145705790-5e1bc46e-e431-4e77-976b-483f2a750bd0.png)
 
 **Program :** 
+1.
 
 ![image](https://user-images.githubusercontent.com/40134790/145705854-9ff42ca1-3295-4be7-9dd9-060f970a2420.png)
+
+2.
+
+![image](https://user-images.githubusercontent.com/40134790/145706085-abae4146-0876-43cd-be28-5721dfedb5b1.png)
