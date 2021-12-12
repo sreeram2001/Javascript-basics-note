@@ -12,15 +12,19 @@ In the above example we declared a variable named "name" which stores the string
 This the output from console
 
 
-**Variable Naming Rules :
+**Variable Naming Rules :**
 
-Cannot be a Reserved keyword like if,else
-Should be meaningful
-Cannot Begin with a number e.g 25variable
-Cannot have a space or hyphen(-)
-They are case-sensitive in Javascript
+-> Cannot be a Reserved keyword like if,else
 
-Best Notation for variable names is using Camel Notation (e.g) let firstLast = 'tree';
+-> Should be meaningful
 
-Declaring Multipe Variables => let ab = 'hi', bb = 'hello';
+-> Cannot Begin with a number e.g 25variable
+
+-> Cannot have a space or hyphen(-)
+
+-> They are case-sensitive in Javascript
+
+-> Best Notation for variable names is using Camel Notation (e.g) let firstLast = 'tree';
+
+-> Declaring Multipe Variables => let ab = 'hi', bb = 'hello';
 
