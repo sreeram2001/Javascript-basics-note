@@ -1,0 +1,66 @@
+
+
+.background
+{
+    background-image: url(https://static.kent.ac.uk/nexus/ems/1218.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+h1
+{
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+div
+{
+    color: aliceblue;
+}
+
+.box 
+{
+width: 500px;
+padding: 40px;
+margin: 10px;
+padding-top: 20px;
+padding-right: 30px;
+margin-top: 20px;
+opacity: 0.7;
+background-color: rgb(0, 0, 0);
+
+color: aliceblue;
+font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.label
+{
+    padding-right: 40px;
+    padding-left: 50px;
+    padding: 50px;
+}
+
+input {
+    border-radius: 10px;
+    font: 15px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    border-color: aliceblue;
+    border-width: 2.5px;
+  }
+
+ button
+ {
+     background-color: black;
+     color: rgb(248, 248, 248);
+     border-radius: 15px;
+     border-width: 10px;
+     font-size: 20px;
+     margin-top: 30px;
+     
+ }

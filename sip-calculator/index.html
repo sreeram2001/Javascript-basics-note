@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="main.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SIP CALCULATOR</title>
+</head>
+
+<body class="background">
+    
+    <center>
+        <div class="box">
+        <form>
+
+            <div class="box-items">
+
+            <h1 class="h1"> SIP CALCULATOR </h1>
+
+            <label> <b>Monthly Investment </b>
+            <input type="number" id="amount">
+            </label>
+
+            <br><br>
+
+            <label> <b>Investment Period ( Years )</b>
+                <input type="number" id="period">
+            </label>
+
+            <br><br>
+
+            <label> <b>Annual Return Rate ( % )</b>
+                <input type="number" id="rate">
+            </label>
+
+            <br><br>
+            <button type="button" onclick="calculateresult()">SUBMIT</button>
+
+        </div>
+
+        <h2 id="op" style="color: white; margin-top: 40px;">RESULTS</h2>
+
+
+        <h3>Expected Amount :</h3> <h3 id="sip">0.0</h3>
+
+        <h3>Invested Amount :</h3> <h3 id="invested">0.0</h3> 
+
+        <h3>Amount Gain :</h3> <h3 id="gain">0.0</h3> 
+
+
+
+
+        </form>
+    </div>
+    </center>
+
+</body>
+
+</html>
