@@ -1,4 +1,4 @@
-**Loops : **
+**Loops :**
 
 In Javascript, loops are used for repeated actions, We have the following the loops in Javascript 
 
@@ -7,4 +7,13 @@ In Javascript, loops are used for repeated actions, We have the following the lo
 -> While Loops
 
 -> Do - while loops
+
+**Syntax :**
+
+for( initialise_expression ; condition ; incrementor) {
+
+statement 
+
+}
+
 
