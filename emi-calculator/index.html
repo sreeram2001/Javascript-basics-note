@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Loan Calculator</title>
+  
+    <style>
+        body {
+            background-color: rgb(250, 216, 24);
+            font-family: 'Trebuchet MS';
+        }
+          
+        h2 {
+            font-size: 25px;
+            color: aliceblue;
+        }
+          
+        h1 {
+            font-size: 21px;
+            margin-top: 20px;
+        }
+          
+        .calculator {
+            width: 400px;
+            height: 500px;
+            background-color: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            padding: 20px 0px 0px 100px;
+            border-radius: 50px;
+            color: white;
+        }
+          
+        input {
+            padding: 7px;
+            width: 70%;
+            margin-top: 7px;
+        }
+
+        button
+ {
+     background-color: black;
+     color: rgb(248, 248, 248);
+     border-radius: 15px;
+     font-size: 15px;
+     
+ }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>EMI CALCULATOR</h1>
+        <p>Amount : </p>
+
+        <input type="number" id="amount" placeholder="Enter Pricipal Amount">
+
+        <p>Interest : </p>
+        <input type="number" id="interest" placeholder="Enter Interest Rate">
+
+        <p>Tenure : </p>
+        <input type="number" id="tenure" placeholder="Enter Tenure in Months">
+
+        <br><br>
+        <button type="button" onclick="userinputs()">SUBMIT</button>
+
+
+        <h2 id = "emi"></h2>
+
+
+        <br>
+<p>github.com/sreeram2001</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
