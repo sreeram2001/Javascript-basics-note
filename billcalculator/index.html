@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>BILL CALCULATOR</title>
+
+    <style>
+        p{
+            color: rgb(0, 0, 0);
+            padding-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        body
+        {
+            background-color: black;
+        }
+
+        .bill {
+            height: 500px;
+            width: 500px;
+            background-color: orange;
+            color: black;
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            border-radius: 20px;
+        }
+
+        h1{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            padding-left: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        input
+        {
+            color: orange;
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            font-size: 15px;
+            padding-right: 30px;
+        }
+
+        button
+        {
+            color: orange;
+            background-color: black;
+            font-size: 15px;
+            border-radius: 10px;
+            margin: 10px;
+
+        }
+    </style>
+
+
+    </head>
+
+    <body>
+
+        <div class ="bill">
+            <h1>BILL CALCULATOR</h1>
+                <br>
+            <p>Product Name: </p>
+            <input type="text" id="pname" placeholder="Enter Product Name">
+
+            <p>Product Price: </p>
+            <input type="number" id="price" placeholder="Enter Product Price">
+
+            <p>Product Quantity: </p>
+            <input type="number" id="qty" placeholder="Enter Quantity">
+
+            <br><br>
+            <button type="button" onclick="calculate()">SUBMIT</button>
+
+            <p id = "total"></p>
+
+            <br>
+            <p>github.com/sreeram2001</p>
+        </class>
+
+        <script src="index.js"></script>
+    </body>
+</html>
