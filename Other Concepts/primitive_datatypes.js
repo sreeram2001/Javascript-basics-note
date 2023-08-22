@@ -20,3 +20,7 @@ console.log(a,b)
 
 //in primitive data types we use stack memory, in reference data types we use heap memeory
 //values are fixed in stack memory
+
+//in reffernece datatypes, inside the stack memory we store a 
+//pointer that points to the memory location in a heap, we dont store the value
+//we store the address
