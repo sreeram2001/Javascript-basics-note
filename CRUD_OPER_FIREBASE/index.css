@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(230, 181, 5);
+}
+
+button{
+    padding: 8px;
+    border-top: 10px;
+    margin: 20px;
+    border-radius:10px;
+    color: rgb(45, 167, 98);
+    background-color: black;
+    border-style: none;
+}
+
+input
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card{
+    opacity: 0.7;
+    border-color: aquamarine;
+    width: 500px;
+    margin: 20px;
+    padding-left: 400px;
+    background-color: rgb(45, 167, 98);
+    width: 500px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.label
+{
+    padding-right: 40px;
+    padding-left: 50px;
+    padding: 50px;
+}
