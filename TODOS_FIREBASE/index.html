@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+    <!--css sheet-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="index.js"></script>
+    <title>
+        TODO LISTS
+    </title>
+
+</head>
+<body>
+<center>
+    <h1>TODO LISTS</h1>
+    <input type="text" id="email" placeholder="Enter Email">
+    <BR>
+    <input type="text" id="password" placeholder="Enter Password"><br>
+    <input type="text" id="username" placeholder="Enter Username"><br>
+    <button type="submit" id="signin" onclick="signIn()">SIGNIN</button><br>
+    <button type="submit" id="signin" onclick="logIn()">LOGIN</button><br>
+    <button type="submit" id="signin" onclick="get()">LIST TODOS</button>
+    <br>
+    </center>
+    <div class="card">
+    <center>
+      
+
+    <input type="text" id="todos" placeholder="Enter A Task">
+    <button type="submit" id="submit" onclick="add()">ADD</button>
+    <br>
+
+    <ul id="todoList"></ul>
+</center>
+    </div>
+</body>
+</html>

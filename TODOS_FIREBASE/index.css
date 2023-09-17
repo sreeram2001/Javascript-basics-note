@@ -1,0 +1,77 @@
+
+body
+{
+    background-color: rgba(171, 215, 145, 0.78);
+    color: chocolate;
+    font-size:medium;
+}
+
+button
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-left: 5px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+input
+{
+    margin-top: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 400px;
+    background-color: rgb(210, 181, 217);
+    color: rgb(148, 67, 9);
+    font-weight: bold;
+}
+
+.card
+{
+    margin-top: 20px;
+    background-color: rgb(58, 92, 24);
+    opacity: 0.7;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+
+    background: #000000;
+    font-size: 20px;
+    transition: 0.2s;
+    list-style-type: none;
+
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 40px;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 1;
+  }
+
+
+
+  .close {
+    /* padding: 9px 13px 9px 13px; */
+    background-color: aliceblue;
+    float: right;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  
