@@ -1,0 +1,56 @@
+
+body
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(191, 255, 0);
+}
+
+
+.content{
+    width: 580px;
+    margin: 0 auto;
+    background-color:#0869A6;
+    padding: 10px;
+    /* padding-left: 6%; */
+}
+
+/* table*/
+table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+thead{
+    background-color:#000000;
+    line-height: 20px;
+}
+
+td{
+    color:#fff70c;
+    line-height: 20px;
+    font-size: large;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+    margin-right: 100px;
+}
+
+input
+{
+    margin: 10px;
+}
+
+button
+{
+    border-radius: 5px;
+    outline: none;
+    background-color: #000000;
+    color: aquamarine;
+    padding: 8px;
+}
+
