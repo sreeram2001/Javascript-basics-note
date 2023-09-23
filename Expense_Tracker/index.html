@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EXPense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+</head>
+
+<body>
+    <center>
+    <h1>EXPENSE TRACKER</h1>
+</center>
+    <!-- <button type="submit" id="signin">SIGNIN</button>
+    <button type="submit" id="login">LOGIN</button>
+    <button type="submit" id="save">SAVE TO DATABASE</button> -->
+    <script src="index.js"></script>
+
+    <div class="content">
+    
+    <label>EXPENSE TYPE
+    <input type="text" id="expense" placeholder="Enter Expense Type">
+</label><br>
+
+    <label>EXPENSE Amount
+    <input type="number" id="amount" placeholder="Enter Amount">
+</label><br>
+
+    <label>DATE
+    <input type="date" id="date">
+</label><br>
+
+    <button type="submit" id="add" onclick="add()">ADD</button>
+    <br>
+
+    <!--output table-->
+    <table id="table">
+
+    <thead>
+    <tr>
+        <th id="expense_col">EXPENSE TYPE</th>
+        <th id="amount_col">EXPENSE AMOUNT</th>
+        <th id="date_col">DATE</th>
+        <th id="delete">DELETE</th>
+    </tr>
+    </thead>
+
+    <tbody id="expenseTable">
+
+    </tbody>
+    </table>
+
+
+    <h4>TOTAL EXPENSES : </h4>
+        <p id="sumi"></p>
+
+    </div>
+</body>
+</html>
