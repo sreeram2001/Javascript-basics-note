@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(180, 102, 0);
+}
+
+.app
+{
+    background-color: rgb(235, 188, 128);
+    width: 90%;
+    padding: 25px;
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 100px auto 0;
+}
+
+.app h1{
+    color: rgb(145, 83, 2);
+    border-bottom: 2px solid rgb(145, 83, 2);
+    padding-bottom: 10px;
+}
+
+.quiz
+{
+    padding: 20px 0;
+}
+.quiz h2
+{
+    color: rgb(180, 102, 0);
+    font-size: 17px;
+    font-weight: 500px;
+}
+
+.btn
+{
+    border-radius: 10px;
+    border: 2px solid rgb(137, 82, 8);
+    width: 100%;
+    background-color: rgb(235, 188, 128);
+    color:rgb(137, 82, 8);
+    margin: 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.4s;
+
+}
+
+/* this hover button feature will not work when button is disabled*/
+.btn:hover:not([disabled])
+{
+    background-color: rgb(137, 82, 8);
+    color: rgb(235, 188, 128);
+}
+
+#nxt-btn
+{
+    background-color: rgb(137, 82, 8);
+    color: rgb(235, 188, 128);
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+}
+
+#nxt-btn:hover
+{
+    background-color: rgb(235, 188, 128);
+    color: rgb(137, 82, 8);
+    border: 2px solid rgb(137, 82, 8);
+    
+}
+
+.correct
+{
+    background-color: rgb(0, 255, 21);
+}
+
+.incorrect
+{
+    background-color: red;
+}
