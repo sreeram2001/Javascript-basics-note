@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: rgb(32, 186, 210);
+}
+
+.container
+{
+    background-color: rgb(65, 127, 168);
+    width: 90%;
+    padding: 25px;
+    max-width: 500px;
+    margin: 200px auto 0;
+    border-radius: 15px;
+}
+
+#search
+{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(32, 186, 210);
+    color: rgb(65, 127, 168);
+}
+
+h2
+{
+    color: rgb(32, 186, 210);
+    margin: 5px;
+}
