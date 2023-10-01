@@ -6,8 +6,8 @@ script tag can be placed in head section or in the body section.
   
 **Why place it in Body Section** :
   
-Browser parses the file from top to bottom, if you put in head, browser may get busy in parsing the javascript code and will not render the contents of the browser page.
-Making it unformtable for the user.
+Browser parses the file from top to bottom, if you put in head, browser may get busy in parsing the javascript code and will not render the contents of the browser page quickly.
+Making it uncomformtable for the user.
 
 
 **console.log();** :
